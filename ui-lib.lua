@@ -25,9 +25,6 @@ local function SaveInfo()
 	writefile("discordlibinfo.txt", HttpService:JSONEncode(userinfo));
 end
 
-local function DiscordEngine(text)
-	local DiscEngine = text
-
 local function MakeDraggable(topbarobject, object)
 	local Dragging = nil
 	local DragInput = nil
