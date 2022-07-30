@@ -10,3 +10,5 @@ local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Th
 local Window{c} = DiscordLib:Window("Quanling Dingle{1}", "Quanling Dingle Engine{2}")
 
 1. This is the title of the window, shown [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-1.png?raw=true)
+
+2. This is the text in the settings. This does not affect the 2 lines of text above it. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-2.png?raw=true)
