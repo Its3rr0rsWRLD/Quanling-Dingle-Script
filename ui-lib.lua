@@ -10,6 +10,22 @@ local user
 local tag
 local userinfo = {}
 
+local function AddTextBox(parent);
+    local TextBox = Instance.new("TextBox")
+    TextBox.Name = "TextBox"
+    TextBox.Text = ""
+    TextBox.Font = Enum.Font.SourceSans
+    TextBox.TextSize = 18
+    TextBox.TextXAlignment = Enum.TextXAlignment.Left
+    TextBox.TextYAlignment = Enum.TextYAlignment.Top
+    TextBox.TextWrapped = true
+    TextBox.BackgroundTransparency = 1
+    TextBox.Size = UDim2.new(1, 0, 1, 0)
+    TextBox.Position = UDim2.new(0, 0, 0, 0)
+    TextBox.Parent = parent
+    return TextBox
+end
+
 pcall(function()
 	userinfo = HttpService:JSONDecode(readfile("discordlibinfo.txt"));
 end)
