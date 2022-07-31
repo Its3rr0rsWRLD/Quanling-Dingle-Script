@@ -56,7 +56,7 @@ local ChannelContent{1}:Button(
 )
 ```
 
-1. This is the name of the channel. This can be changed. Se [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-4.png?raw=true)
+1. This is the name of the channel. This can be changed. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-4.png?raw=true)
 
 ### Drop-Down Menus
 
