@@ -143,7 +143,7 @@ tgls{c} {1}:Toggle(
     end
 )
 ```
-1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name.
+1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-9.png?raw=true)
 
 ### (Key) Binds
 
@@ -160,4 +160,16 @@ bnds{c} {1}:Bind(
 ```
 1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name.
 
+Both: See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-10.png?raw=true)
+
 2. This is the key that will trigger the function. `Enum.KeyCode` is neccecary for the key bind.
+
+### Seperators
+
+------
+
+```lua
+btns{c} {1}:Seperator()
+```
+
+1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-11.png?raw=true)
