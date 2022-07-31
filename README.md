@@ -177,3 +177,17 @@ btns{c} {1}:Seperator()
 ```
 
 1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-11.png?raw=true)
+
+### Notifications
+
+------
+
+```lua
+DiscordLib:Notification("Notification {1}", "Killed everyone! {2}", "Okay! {3}")
+```
+
+1. This is the text shown at the top of the notificantion. It's more or less a title.
+
+2. This is the text shown in the middle of the notification. This would be all of the information that the user sees the most.
+
+3. This is the text of a button. The button is at the bottom of the notification.
