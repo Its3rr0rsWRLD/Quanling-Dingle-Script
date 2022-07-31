@@ -77,6 +77,36 @@ local drop{c} =
 ```lua
 local {name} = {Server Name}:Channel("{Channel Name}")
 ```
-In this case, the name for the server can be changed to anything. This is just the local variable, so the variable name is not going to be the server name. The Server name, in this case, is not stated, as at `Servers`, it just has `{name}`, so you can change this to anything. Just make sure that when using the `{Server Name}`, it is the name of the local variable, not the server name shown in the UI.
+In this case, the name for the server can be changed to anything. This is just the local variable, so the variable name is not going to be the server name. The Server name, in this case, is not stated, as at [Servers](https://github.com/ThatError404/Quanling-Dingle-Script/edit/main/README.md#servers), it just has `{name}`, so you can change this to anything. Just make sure that when using the `{Server Name}`, it is the name of the local variable, not the server name shown in the UI.
 
 2. This is the text shown when the Drop-Down is closed.
+
+### ColorPickers
+
+------
+
+```lua
+clrs{c} {1}:Colorpicker(
+    "ESP Color{c} {2}",
+    Color3.fromRGB(255, 1, 1),
+    function(t)
+        print(t)
+    end
+)
+```
+
+1. This is the local variable name for the channel. It can be changed, but must still be the local variables name.
+
+2. This is the text shown in the UI.
+
+### Labels
+
+------
+
+```lua
+lbls{c} {1}:Label("This is just a label.{c} {2}")
+```
+
+1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name.
+
+2. This is the text shown in the label.
