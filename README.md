@@ -56,7 +56,7 @@ local ChannelContent{1}:Button(
 )
 ```
 
-1. This is the name of the channel. This can be changed.
+1. This is the name of the channel. This can be changed. Se [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-4.png?raw=true)
 
 ### Drop-Down Menus
 
@@ -73,7 +73,7 @@ local drop{c} =
 )
 ```
 
-1. This is the name of the channel that the Drop-Down menu will be in. All channels must be made with the following.
+1. This is the name of the channel that the Drop-Down menu will be in. All channels must be made with the following. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-5.png?raw=true) for example images.
 ```lua
 local {name} = {Server Name}:Channel("{Channel Name}")
 ```
@@ -95,7 +95,7 @@ clrs{c} {1}:Colorpicker(
 )
 ```
 
-1. This is the local variable name for the channel. It can be changed, but must still be the local variables name.
+1. This is the local variable name for the channel. It can be changed, but must still be the local variables name. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-6.png?raw=true)
 
 2. This is the text shown in the UI.
 
@@ -108,5 +108,7 @@ lbls{c} {1}:Label("This is just a label.{c} {2}")
 ```
 
 1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name.
+
+For both, See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-7.png?raw=true)
 
 2. This is the text shown in the label.
