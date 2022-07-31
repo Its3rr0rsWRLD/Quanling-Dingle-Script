@@ -112,3 +112,52 @@ lbls{c} {1}:Label("This is just a label.{c} {2}")
 For both, See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-7.png?raw=true)
 
 2. This is the text shown in the label.
+
+### TextBoxes
+
+------
+
+```lua
+textbs{c} {1}:Textbox(
+    "Gun power{c}",
+    "Type here!{c}",
+    true,
+    function(t)
+        print(t)
+    end
+)
+```
+
+1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-8.png?raw=true)
+
+### Toggles
+
+------
+
+```lua
+tgls{c} {1}:Toggle(
+    "Auto-Farm{c}",
+    false,
+    function(bool)
+        print(bool)
+    end
+)
+```
+1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name.
+
+### (Key) Binds
+
+------
+
+```lua
+bnds{c} {1}:Bind(
+    "Kill bind{c}",
+    Enum.KeyCode.RightShift{c} {2},
+    function()
+        print("Killed everyone!")
+    end
+)
+```
+1. This is the local variable name for the Channel. It can be changed, but must still be the local variables name.
+
+2. This is the key that will trigger the function. `Enum.KeyCode` is neccecary for the key bind.
