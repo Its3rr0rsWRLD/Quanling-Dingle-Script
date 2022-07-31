@@ -40,7 +40,7 @@ This creates a server with the stated name. (There are no custom Icons)
 SaveInfo() {1}
 ```
 Cannot change the function name or its contents
-1. Saves "Discord" (User UI) settings. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Scripts/SaveInfo.lua) and [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-3.png?raw=true)
+1. Saves "Discord" (User UI) settings. This is automatic and should not be used unless customizing the ui library. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Scripts/SaveInfo.lua) and [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-3.png?raw=true)
 
 
 ### Buttons
