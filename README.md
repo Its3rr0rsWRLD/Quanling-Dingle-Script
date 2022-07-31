@@ -24,7 +24,9 @@ local Window {c} = DiscordLib:Window("Quanling Dingle {1}", "Quanling Dingle Eng
 
 2. This is the text in the settings. This does not affect the 2 lines of text above it. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-2.png?raw=true)
 
-# Servers
+### Servers
+
+------
 ```lua
 local Server = Window:Server("{name}, "")
 ```
@@ -58,6 +60,8 @@ local ChannelContent{1}:Button(
 
 ### Drop-Down Menus
 
+------
+
 ```lua
 local drop{c} =
     drops{c} {1}:Dropdown(
@@ -74,3 +78,5 @@ local drop{c} =
 local {name} = {Server Name}:Channel("{Channel Name}")
 ```
 In this case, the name for the server can be changed to anything. This is just the local variable, so the variable name is not going to be the server name. The Server name, in this case, is not stated, as at `Servers`, it just has `{name}`, so you can change this to anything. Just make sure that when using the `{Server Name}`, it is the name of the local variable, not the server name shown in the UI.
+
+2. This is the text shown when the Drop-Down is closed.
