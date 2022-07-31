@@ -77,7 +77,7 @@ local drop{c} =
 ```lua
 local {name} = {Server Name}:Channel("{Channel Name}")
 ```
-In this case, the name for the server can be changed to anything. This is just the local variable, so the variable name is not going to be the server name. The Server name, in this case, is not stated, as at [Servers](https://github.com/ThatError404/Quanling-Dingle-Script/edit/main/README.md#servers), it just has `{name}`, so you can change this to anything. Just make sure that when using the `{Server Name}`, it is the name of the local variable, not the server name shown in the UI.
+In this case, the name for the server can be changed to anything. This is just the local variable, so the variable name is not going to be the server name. The Server name, in this case, is not stated, as at [Servers](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/README.md#servers), it just has `{name}`, so you can change this to anything. Just make sure that when using the `{Server Name}`, it is the name of the local variable, not the server name shown in the UI.
 
 2. This is the text shown when the Drop-Down is closed.
 
