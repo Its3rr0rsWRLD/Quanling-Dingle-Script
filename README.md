@@ -201,4 +201,4 @@ local Credits = CredServ {1}:Channel("Credits {2}")
 ```
 1. This is the variable name for the server.
 
-2 This is the name of the channel.
+2. This is the name of the channel.
