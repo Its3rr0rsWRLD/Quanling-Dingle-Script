@@ -191,3 +191,14 @@ DiscordLib:Notification("Notification {1}", "Killed everyone! {2}", "Okay! {3}")
 2. This is the text shown in the middle of the notification. This would be all of the information that the user sees the most.
 
 3. This is the text of a button. The button is at the bottom of the notification.
+
+### Channels
+
+------
+
+```lua
+local Credits = CredServ {1}:Channel("Credits {2}")
+```
+1. This is the variable name for the server.
+
+2 This is the name of the channel.
