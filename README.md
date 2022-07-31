@@ -12,3 +12,7 @@ local Window{c} = DiscordLib:Window("Quanling Dingle{1}", "Quanling Dingle Engin
 1. This is the title of the window, shown [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-1.png?raw=true)
 
 2. This is the text in the settings. This does not affect the 2 lines of text above it. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-2.png?raw=true)
+
+
+SaveInfo() {1} `Cannot change the function name or its contents`
+1. Saves "Discord" (User UI) settings. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Scripts/SaveInfo.lua) and [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-3.png?raw=true)
