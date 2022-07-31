@@ -49,14 +49,18 @@ Cannot change the function name or its contents
 
 ```lua
 local ChannelContent{1}:Button(
-     "I'm a button!",
-     function() {2} {c}
-          DiscordLib:Notification("Notification {3}", "Killed everyone! {4}", "Okay! {5}")
+     "I'm a button!{c} {2}",
+     function() {3}
+        print("hi")
      end
 )
 ```
 
 1. This is the name of the channel. This can be changed. See [here](https://github.com/ThatError404/Quanling-Dingle-Script/blob/main/Example%20Images/QDS-MD-4.png?raw=true)
+
+2. This is the text of the button. It is shown on top of the button.
+
+3. This is the function. It is not necessary but if there is no action, the button will not do anything.
 
 ### Drop-Down Menus
 
