@@ -28,7 +28,7 @@ local Window {c} = DiscordLib:Window("Quanling Dingle {1}", "Quanling Dingle Eng
 
 ------
 ```lua
-local Server = Window:Server("{name}, "")
+local Server = Window:Server("{name}", "")
 ```
 
 This creates a server with the stated name. (There are no custom Icons)
